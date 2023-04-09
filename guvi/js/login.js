@@ -9,11 +9,7 @@ $(document).ready(function(){
 
 
         
-        
-        // if(password2 = '' || email2 == ''){
-        //     alert("Please fill all fields");
-        //     return false;
-        // }
+
         
         var url = window.location.origin + "/guvi/php/login.php";
         var jsonObject = new Object();
