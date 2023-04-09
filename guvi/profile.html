@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/css_bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/css_bootstrap/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+
+    <script src="css/js_bootstrap/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="js/profile.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center inner-row">
+            <div class="col-md-7">
+                <div class="form-box p-3 p-md-5">
+                    <div class="form-title">
+                        <h2 class="fw-bold mb-3">Profile Info</h2>
+                    </div>
+
+                    <!-- <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <p class="mb-2">Full Name</p>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="Full Name" class="form-control form-control-sm" placeholder="Full Name" id="fullname">
+                            <label for="floatingInput">Full Name</label>
+                        </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <p class="mb-0">Email</p>
+                          </div>
+                          <div class="col-sm-9" id="email">
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <p class="mb-0">Phone</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0">(097) 234-5678</p>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <p class="mb-0">Mobile</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0">(098) 765-4321</p>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <p class="mb-0">Age</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0">15</p>
+                          </div>
+                        </div>
+                    </div>  -->
+
+                    <form id="myForm">
+
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name" id="firstname" readonly>
+                            <label>First Name</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="Last Name" id="lastname" readonly>
+                            <label>Last Name</label>
+                        </div>
+
+                        <div class="form-floating mb-3 input-group date" id="datepicker-id">
+                                <input type="date" class="form-control form-control-sm" placeholder="Date Of Birth" id="dob" readonly>
+                                <label for="floatingInput">Date Of Birth</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Phone Number" id="phonenumber" readonly>
+                            <label for="floatingInput">Phone Number</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="Email" class="form-control form-control-sm" name="email" placeholder="Email" id="email" readonly>
+                            <label>Email</label>
+                        </div>
+
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
